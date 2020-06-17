@@ -1,5 +1,11 @@
 body {
 	box-sizing: border-box;
+	font-size: 1.2em;
+	font-family: 'Balsamiq Sans';
+}
+
+.nav-item {
+	text-align: center;
 }
 
 @media (min-width: 991px) {
@@ -7,81 +13,77 @@ body {
 		text-align: center;
 		margin-left: 2%;
 		margin-right: 2%;
-		width: 180px;
+		width: 200px;
 	}
-}
-
-.nav-item {
-	text-align: center;
 }
 
 .jumbotron{
 	background-color: #006D77;
+	display: table;
+	width: 100%;
 }
 
-.jumbotron-img {
-	margin: 0px;
-	margin-left: 2%;
-	margin-right: 2%;
-
-	padding: 0px;
-	width: 96%;
-	box-shadow: 3px 2px 10px;
+.carousel {
+	display: table-cell;
+	margin: 0;
+	width: 100%;
 }
 
-img {
-    height: 400px; /* height of container */
+.carousel-img {
+    height: 350px; /* height of container */
     object-fit: cover;
     width: 100%;
 }
 
 .logo-img {
+	position: relative;
 	display: block;
 	margin: 0 auto;
-	width: 15%;
-	height: 15%;
-	margin-top: -14%;
+	width: 130px;
+	margin-top: -130px;
 }
 
-.general {
-	text-align: justify;
-}
-
-
-
-.carousel {
-	display: block;
+.general-row {
+	display: flex;
+    align-items:center;
 	margin: 0 auto;
-	width: auto;
-	height: 400px;
-	background-color: #000000;
+	padding: 3%;
 }
 
-.carousel-img {
-	align-self: center;
-	width: 100%;
+p.general {
+	text-align: right;
 }
 
-.shimg {
-	display: inline-block;
-	height: 50%;
-	width: 100%;
+
+@media (min-width: 991px) {
+	.general {
+		font-size: 0.8em;
+	}
+
+	.logo-img {
+		width: 170px;
+		margin-top: -150px;
+	}
 }
+
+/****************************************************************************************************************************************/
 
 .help-row {
-	margin: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 20px;
-	width: 100%;
-	text-align: justify;
-	background-color: #83C5BE;
+	display: flex;
+    align-items:center;
+    background-color: #83C5BE;
 }
 
-.sheet_desc {
-	padding: 20px;
-	text-align: justify;
+.sheet-img {
+	position: relative;
+	width: 100%;
+
 }
+
+
+
+
+/*****************************************************************************************************************************************/
 
 footer {
 	background-color: #83C5BE;
@@ -92,12 +94,8 @@ footer {
 
 .row {
 	margin: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 20px;
 	width: 100%;
 	text-align: center;
-	box-shadow: 3px 2px 10px;
 
 }
 
