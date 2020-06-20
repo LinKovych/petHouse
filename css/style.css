@@ -8,6 +8,10 @@ body {
 	text-align: center;
 }
 
+.navbar {
+	min-height: 80px;
+}
+
 @media (min-width: 991px) {
 	.nav-item {
 		text-align: center;
@@ -15,12 +19,29 @@ body {
 		margin-right: 2%;
 		width: 200px;
 	}
+
+	.navbar {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+	.navbar {
+		font-size: 1.5em;
+	}
 }
 
 .jumbotron{
 	background-color: #006D77;
 	display: table;
 	width: 100%;
+	min-height: 300px;
 }
 
 .carousel {
