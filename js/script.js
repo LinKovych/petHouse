@@ -4,17 +4,12 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-  	var diff = document.getElementById("navbar").style.height;
-    document.getElementById("navbar").style.top = "-" + diff + "px";
+    document.getElementById("navbar").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }
 
 $('.js-scroll-trigger').click(function() 
 {
-    $('.navbar-collapse').collapse('hide');
-});
-
-$('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
