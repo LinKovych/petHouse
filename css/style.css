@@ -8,29 +8,6 @@ body {
 	text-align: center;
 }
 
-@media (min-width: 991px) {
-	.nav-item {
-		margin-left: 2%;
-		margin-right: 2%;
-		width: 200px;
-		height: auto;
-		font-size: 120%;
-	}
-}
-
-@media (max-width: 991px) {
-	.nav-item {
-		font-size: 150%;
-	}
-}
-
-
-
-
-
-
-
-
 .jumbotron{
 	background-color: #006D77;
 	display: table;
