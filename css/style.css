@@ -9,11 +9,17 @@ body {
 }
 
 .navbar {
-	min-height: 100px;
+	min-height: 150px;
 }
 
 .navbar-toggler {
-	min-height: 80px;
+	min-height: 140px;
+	min-width: 140px;
+}
+
+.navbar-toggler-icon {
+	min-height: 140px;
+	min-width: 140px;
 }
 
 @media (min-width: 991px) {
