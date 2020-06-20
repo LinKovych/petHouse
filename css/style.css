@@ -37,13 +37,13 @@ body {
 
 @media (max-width: 768px) {
 	.navbar {
-		font-size: 2em;
+		font-size: 64px;
 	}
 }
 
 @media (max-width: 991px) and (min-width: 769px) {
 	.navbar {
-		font-size: 1.5em;
+		font-size: 48em;
 	}
 }
 
