@@ -35,15 +35,9 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 	.navbar {
-		font-size: 24px;
-	}
-}
-
-@media (max-width: 991px) and (min-width: 769px) {
-	.navbar {
-		font-size: 18em;
+		font-size: 12px;
 	}
 }
 
