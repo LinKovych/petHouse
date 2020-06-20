@@ -9,6 +9,10 @@ body {
 }
 
 .navbar {
+	min-height: 100px;
+}
+
+.navbar-toggler {
 	min-height: 80px;
 }
 
