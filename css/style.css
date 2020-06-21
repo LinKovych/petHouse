@@ -197,7 +197,7 @@ h1 {
 	border: none;
 	border-radius: 0px;
 	box-shadow: 4px 4px 5px;
-	height: auto;
+	height: 450px;
 	width: 98%;
 	background-color: #FFDDD2;
 }
@@ -211,7 +211,7 @@ h1 {
 @media only screen and (min-width: 768px){
 	#find {
 		width: 94%;
-	background-color: #FFDDD2;
+		background-color: #FFDDD2;
 
 	}
 }
@@ -245,6 +245,10 @@ iframe, .outside {
 		text-align: justify;
 		font-size: 0.9em;
 
+	}
+
+	.card {
+		height: auto;
 	}
 
 	.main {
@@ -301,7 +305,7 @@ iframe, .outside {
 @media only screen and (max-width: 767px) {
 	.horizontal-card-img {
 		display: block;
-		width: 90%;
+		width: 60%;
 		margin: 0 auto;
 	}
 
